@@ -1,0 +1,18 @@
+.secondcolumn{
+  background-image:url('../assets/Lifeline1.png') ;
+  background-size: cover;
+ 
+ 
+}
+
+
+.titlediv{
+    width: 50%;
+}
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .titlediv {
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+}
